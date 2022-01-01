@@ -8,6 +8,7 @@ import socket
 from urllib.parse import urlparse
 from django.http import JsonResponse, HttpResponse, HttpRequest
 from django.views.decorators.csrf import csrf_exempt
+import requests
 
 
 class Blockchain:
